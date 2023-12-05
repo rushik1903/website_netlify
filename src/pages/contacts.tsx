@@ -1,6 +1,6 @@
 function Contacts(){
     return (
-        <>
+        <div  id="CONTACTS" style={{display:"none"}}>
         <div className="pageHeader">
             <div className="headerContent">
                 <div className="sectionContainer">
@@ -43,7 +43,7 @@ function Contacts(){
                 </div>
             </div>
         </div>
-        </>
+        </div>
     );
 }
 

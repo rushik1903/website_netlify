@@ -1,6 +1,6 @@
 function Teaching(){
     return (
-        <>
+        <div  id="TEACHING" style={{display:"none"}}>
         <div className="pageHeader">
             <div className="headerContent">
                 <div className="sectionContainer">
@@ -33,7 +33,7 @@ function Teaching(){
                 </div>
             </div>
         </div>
-        </>
+        </div>
     );
 }
 

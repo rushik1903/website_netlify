@@ -1,6 +1,6 @@
 function Experience(){
     return (
-        <>
+        <div  id="EXPERIENCE" style={{display:"none"}}>
         <div className="pageHeader">
             <div className="headerContent">
                 <div className="sectionContainer">
@@ -27,7 +27,7 @@ function Experience(){
                 </div>
             </div>
         </div>
-        </>
+        </div>
     );
 }
 

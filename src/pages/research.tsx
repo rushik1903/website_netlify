@@ -1,6 +1,6 @@
 function Research(){
     return (
-        <>
+        <div id = "RESEARCH" style={{display:"none"}}>
         <div className="pageHeader">
             <div className="headerContent">
                 <div className="sectionContainer">
@@ -34,7 +34,7 @@ function Research(){
                 </div>
             </div>
         </div>
-        </>
+        </div>
     );
 }
 

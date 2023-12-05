@@ -1,5 +1,5 @@
 function Resources(){
-    return <>This is resources</>
+    return <div  id="RESOURCES" style={{display:"none"}}>This is resources</div>
 }
 
 export default Resources;

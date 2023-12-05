@@ -1,5 +1,5 @@
 function Media(){
-    return <>This is Media</>
+    return <div id="MEDIA" style={{display:"none"}}>This is Media</div>
 }
 
 export default Media;

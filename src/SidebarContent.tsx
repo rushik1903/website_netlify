@@ -4,7 +4,7 @@ function SidebarContent(){
             <div className="portrate">
                 <a className="circleFrame">
                     {/* <img className="circleFrame" width={'125px'} src = "./public/CharuSharmaProfile2.jpeg"/> */}
-                    <a href="https://ibb.co/4pjvsHZ"><img className="circleFrame" width={'125px'} src="https://i.ibb.co/7KGMgqJ/Charu-Sharma-Profile2.jpg" alt="Charu-Sharma-Profile2" /></a>
+                    <a><img className="circleFrame" width={'125px'} src="https://i.ibb.co/7KGMgqJ/Charu-Sharma-Profile2.jpg" alt="Charu-Sharma-Profile2" /></a>
                 </a>
             </div>
             <div className="title">
@@ -15,55 +15,55 @@ function SidebarContent(){
         <div className="mainNav">
             <ul id="Navigation" style={{paddingLeft:'0px'}}>
                 <li>
-                    <a href="/home">
+                    <a id="homeButton">
                         <i style={{width:'50px'}} className="fa fa-home"></i>
                         <p>Home</p>
                     </a>
                 </li>
                 {/* <li>
-                    <a href="/publications">
+                    <a href="/publications"  id="publicationsButton">
                         <i style={{width:'50px'}} className="fa fa-graduation-cap"></i>
                         <p>Publications</p>
                     </a>
                 </li> */}
                 <li>
-                    <a href="/research">
+                    <a id="researchButton">
                         <i style={{width:'50px'}} className="fa fa-file-text" aria-hidden="true"></i>
                         <p>Research</p>
                     </a>
                 </li>
                 <li>
-                    <a href="/teaching">
+                    <a id="teachingButton">
                         <i style={{width:'50px'}} className="fa fa-university"></i>
                         <p>Teaching</p>
                     </a>
                 </li>
                 <li>
-                    <a href="/experience">
+                    <a id="experienceButton">
                         <i style={{width:'50px'}} className="fa fa-history"></i>
                         <p>Experience</p>
                     </a>
                 </li>
                 <li>
-                    <a href="/others">
+                    <a id="othersButton">
                         <i style={{width:'50px'}} className="fa fa-info-circle"></i>
                         <p>Others</p>
                     </a>
                 </li>
                 {/* <li>
-                    <a href="/media">
+                    <a href="/media" id="mediaButton">
                         <i style={{width:'50px'}} className="fa fa-video-camera"></i>
                         <p>Media</p>
                     </a>
                 </li> */}
                 {/* <li>
-                    <a href="/resources">
+                    <a href="/resources" id="resourcesButton">
                         <i style={{width:'50px'}} className="fa fa-folder-o"></i>
                         <p>Resources</p>
                     </a>
                 </li> */}
                 <li>
-                    <a href="/contacts">
+                    <a id="contactsButton">
                         <i style={{width:'50px'}} className="fa fa-address-card-o"></i>
                         <p>Contact</p>
                     </a>
