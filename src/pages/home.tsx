@@ -2,8 +2,7 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 function Home(){
     return (
-        <div id = "HOME">
-        <div className="homeContainer" style={{minHeight:"100vh", display:"flex"}}>
+        <div className="homeContainer" style={{minHeight:"100vh"}}>
             <div className="homeContainerIntro">
                 {/* <img src="./public/CharuSharmaProfile.jpeg"/> */}
                 <a><img src="https://i.ibb.co/Ln2GQ4F/Charu-Sharma-Profile.jpg" alt="Charu-Sharma-Profile"/></a>
@@ -51,7 +50,7 @@ function Home(){
             <div style={{flexGrow:'1'}}>
                 <div style={{flexGrow:'1', marginTop:'10px'}} className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="shcharu" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/shcharu?trk=profile-badge"></a></div>
                 <div style={{width:'100%', marginTop:'15px'}} className="twitterEmbedContainer">
-                <a className="twitter-timeline" data-height="1080" href="https://twitter.com/sh_charu?ref_src=twsrc%5Etfw">Tweets by sh_charu</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+                <a className="twitter-timeline" href="https://twitter.com/sh_charu?ref_src=twsrc%5Etfw">Tweets by sh_charu</a> <script async src="https://platform.twitter.com/widgets.js"></script>
 
                 </div>
                 {/* <div style={{flexGrow:'1'}}>
@@ -65,7 +64,6 @@ function Home(){
             
               
 
-        </div>
         </div>
     );
 }

@@ -1,6 +1,6 @@
-function Others(){
+function Contacts(){
     return (
-        <div  id="OTHERS" style={{display:"none"}}>
+        <>
         <div className="pageHeader">
             <div className="headerContent">
                 <div className="sectionContainer">
@@ -49,8 +49,8 @@ function Others(){
                 </div>
             </div>
         </div>
-        </div>
+        </>
     );
 }
 
-export default Others;
+export default Contacts;

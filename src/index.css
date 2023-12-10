@@ -75,6 +75,7 @@ div.alternateBGColors p:nth-child(odd) {
 .mainNav p{
     position: relative;
     top: -3px;
+    color: var(--sideBarNameColor);
 }
 .mainNav li{
     padding-top: 2px;
@@ -263,10 +264,6 @@ ul #Navigation{
     max-width: 70px;
 }
 
-
-#Navigation li a:hover{
-    cursor: pointer;
-}
 
 /* styles for pages */
 

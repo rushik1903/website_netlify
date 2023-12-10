@@ -1,6 +1,6 @@
 function Contacts(){
     return (
-        <div  id="CONTACTS" style={{display:"none"}}>
+        <>
         <div className="pageHeader">
             <div className="headerContent">
                 <div className="sectionContainer">
@@ -28,13 +28,13 @@ function Contacts(){
                                         <img width={'34px'} src="https://mll.iiit.ac.in/wp-content/uploads/2020/01/cropped-2-1.png"/>
                                     </a>
                                     <a href="https://www.linkedin.com/in/shcharu">
-                                        <img width={'34px'} src="./public/linkedinIcon.png"/>
+                                        <img width={'34px'} src="https://i.postimg.cc/pdC9bwNq/linkedin-Icon.png"/>
                                     </a>
                                     <a href="https://scholar.google.com.tw/citations?user=bftN0M0AAAAJ&hl=en&oi=sra">
-                                        <img width={'34px'} src="./public/googleScholarIcon.png"/>
+                                        <img width={'34px'} src="https://i.postimg.cc/G2NmbrXJ/google-Scholar-Icon.png"/>
                                     </a>
                                     {/* <a href="https://mll.iiit.ac.in/">
-                                        <img width={'34px'} src="./public/githubIcon.png"/>
+                                        <img width={'34px'} src="https://i.postimg.cc/43fd5WKt/github-Icon.png"/>
                                     </a> */}
                                 </strong>
                             </p>
@@ -43,7 +43,7 @@ function Contacts(){
                 </div>
             </div>
         </div>
-        </div>
+        </>
     );
 }
 
