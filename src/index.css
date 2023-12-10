@@ -75,6 +75,7 @@ div.alternateBGColors p:nth-child(odd) {
 .mainNav p{
     position: relative;
     top: -3px;
+    color: var(--sideBarNameColor);
 }
 .mainNav li{
     padding-top: 2px;
