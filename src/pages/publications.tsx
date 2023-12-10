@@ -1,5 +1,5 @@
 function Publications(){
-    return <div id="PUBLICATIONS" style={{display:"none"}}>
+    return <div>
         <h1>This is Publications</h1>
     </div>
 }

@@ -264,10 +264,6 @@ ul #Navigation{
 }
 
 
-#Navigation li a:hover{
-    cursor: pointer;
-}
-
 /* styles for pages */
 
 .pageHeader{
