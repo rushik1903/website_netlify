@@ -28,13 +28,13 @@ function Contacts(){
                                         <img width={'34px'} src="https://mll.iiit.ac.in/wp-content/uploads/2020/01/cropped-2-1.png"/>
                                     </a>
                                     <a href="https://www.linkedin.com/in/shcharu">
-                                        <img width={'34px'} src="./public/linkedinIcon.png"/>
+                                        <img width={'34px'} src="https://ibb.co/p0FwygC"/>
                                     </a>
                                     <a href="https://scholar.google.com.tw/citations?user=bftN0M0AAAAJ&hl=en&oi=sra">
-                                        <img width={'34px'} src="./public/googleScholarIcon.png"/>
+                                        <img width={'34px'} src="https://ibb.co/gWhgKtp"/>
                                     </a>
                                     {/* <a href="https://mll.iiit.ac.in/">
-                                        <img width={'34px'} src="./public/githubIcon.png"/>
+                                        <img width={'34px'} src="https://ibb.co/hCxBWTL"/>
                                     </a> */}
                                 </strong>
                             </p>
