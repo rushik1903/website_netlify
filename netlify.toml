@@ -1,15 +1,15 @@
 [[redirects]]
 
-from = "/wristTryOn"
+from = "/*"
 
-to = "/wristTryOn.html"
+to = "/index.html"
 
 status = 200
 
 [[redirects]]
 
-from = "/*"
+from = "/wristTryOn"
 
-to = "/index.html"
+to = "/wristTryOn.html"
 
 status = 200
