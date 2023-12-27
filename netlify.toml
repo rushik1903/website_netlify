@@ -1,5 +1,9 @@
 [[redirects]]
 
+from = "/wristTryOn"
+
+to = "/wristTryOn.html"
+
 from = "/*"
 
 to = "/index.html"
