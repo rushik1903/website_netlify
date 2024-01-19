@@ -1,6 +1,6 @@
 [[redirects]]
 
-from = "/wristTryOn.html"
+from = "/*"
 
 to = "/wristTryOn.html"
 
