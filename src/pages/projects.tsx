@@ -17,6 +17,7 @@ function Projects(){
                             <div style={{padding:"20px"}}>
                                 <h3>Wrist Try-On</h3>
                                 <p>Making a wrist try on by leveraging mediapipe</p>
+                                <button>try demo</button>
                             </div>
                         </div>
                     </div>

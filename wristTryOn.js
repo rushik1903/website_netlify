@@ -736,7 +736,7 @@ import {
   function enableCam(event) {
     if (!handLandmarker) {
       console.log("Wait! objectDetector not loaded yet.");
-      document.getElementById("instructionsBox").textContent = "Wait! objectDetector not loaded yet.";
+      document.getElementById("instructionsBox").textContent = "Wait! objectDetector not loaded yet, try again in few seconds";
       return;
     }
     document.getElementById("instructionsBox").textContent = "";
