@@ -13,7 +13,7 @@ function Projects(){
                 <div className="sectionContainer">
                     <div className="d-flex flex-row justify-content-start">
                         <div className="wristTryOn" style={{display:"flex", }}>
-                            <img width={"40%"} src="https://i.ibb.co/xjJxwW3/combined-Path.png"></img>
+                            <img width={"40%"} src="wristTryOnImage.png"></img>
                             <div style={{padding:"20px"}}>
                                 <h3>Wrist Try-On</h3>
                                 <p>Making a wrist try on by leveraging mediapipe</p>
