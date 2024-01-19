@@ -38,7 +38,7 @@ function crossProduct(a, b){
 
 
 // global avriables
-let objToRender = 'golden_watch';
+let objToRender = 'bracelet';
 
 let runPoseEstimation = false
 let predictedPoints = null;
