@@ -107,7 +107,7 @@ function RenderObject(width, height){
 
   //Load the file
   loader.load(
-    `public/wristTryOnModels/${objToRender}/scene.gltf`,
+    `wristTryOnModels/${objToRender}/scene.gltf`,
     function (gltf) {
       //If the file is loaded, add it to the scene
       object = gltf.scene;
